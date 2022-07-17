@@ -1,4 +1,4 @@
-<img src="github-banner1.svg">
+<img src="github-banner.svg">
 <h1 align="center">Hi there 👋, Musawir here</h1>
 
 
