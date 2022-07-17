@@ -1,3 +1,4 @@
+<img src="github-banner.png">
 <h1 align="center">Hi there 👋, Musawir here</h1>
 
 
