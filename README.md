@@ -1,4 +1,5 @@
 <img src="github-banner.svg">
 
-- 🌱 I’m currently learning python
-- 📫 Reach me: musawir.ap@gmail.com
+- 🌱 Python | DevOps
+- 📫 Reach me: ap.musawir@gmail.com
+- 🔗 LinkdIn: https://www.linkedin.com/in/abdulmusawirap
