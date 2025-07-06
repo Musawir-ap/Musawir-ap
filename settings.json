@@ -1,8 +1,8 @@
 // my vscode settings including custom nightowl theme
 {
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 25,
-    "terminal.integrated.fontSize": 32,
+    "editor.fontSize": 24,
+    "terminal.integrated.fontSize": 24,
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "JetBrains Mono",
     // "editor.cursorWidth": 5,
@@ -16,26 +16,26 @@
         // nightowl_main_bg: "#011627"
         "[Night Owl]": {
             // Editor background
-            "editor.background": "#01121f",
+            "editor.background": "#011424",
 
             // Activity bar (left-most vertical bar)
-            "activityBar.background": "#01121f",
+            "activityBar.background": "#011424",
 
             // Side bar (explorer, search, etc.)
-            "sideBar.background": "#01121f",
+            "sideBar.background": "#011424",
 
             // Status bar (bottom bar)
-            "statusBar.background": "#01121f",
-            "statusBar.noFolderBackground": "#01121f",
-            "statusBar.debuggingBackground": "#01121f",
+            "statusBar.background": "#011424",
+            "statusBar.noFolderBackground": "#011424",
+            "statusBar.debuggingBackground": "#011424",
 
             // Title bar (top window bar)
-            "titleBar.activeBackground": "#01121f",
-            "titleBar.inactiveBackground": "#01121f",
+            "titleBar.activeBackground": "#011424",
+            "titleBar.inactiveBackground": "#011424",
 
             // Panels (terminal, problems, output)
-            "panel.background": "#01121f",
-            "editorGutter.background": "#01121f",
+            "panel.background": "#011424",
+            "editorGutter.background": "#011424",
 
             // Scrollbar background (optional)
             "scrollbarSlider.background": "#11223333",
