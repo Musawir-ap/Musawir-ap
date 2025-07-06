@@ -1,0 +1,148 @@
+// my vscode settings including custom nightowl theme
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 25,
+    "terminal.integrated.fontSize": 32,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    // "editor.cursorWidth": 5,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.altClickMovesCursor": true,
+    "workbench.colorCustomizations": {
+        "terminalCursor.foreground": "#e7ed6c",
+        // "editor.background": "#01121f",
+        // nightowl_main_bg: "#011627"
+        "[Night Owl]": {
+            // Editor background
+            "editor.background": "#01121f",
+
+            // Activity bar (left-most vertical bar)
+            "activityBar.background": "#01121f",
+
+            // Side bar (explorer, search, etc.)
+            "sideBar.background": "#01121f",
+
+            // Status bar (bottom bar)
+            "statusBar.background": "#01121f",
+            "statusBar.noFolderBackground": "#01121f",
+            "statusBar.debuggingBackground": "#01121f",
+
+            // Title bar (top window bar)
+            "titleBar.activeBackground": "#01121f",
+            "titleBar.inactiveBackground": "#01121f",
+
+            // Panels (terminal, problems, output)
+            "panel.background": "#01121f",
+            "editorGutter.background": "#01121f",
+
+            // Scrollbar background (optional)
+            "scrollbarSlider.background": "#11223333",
+
+            // "activityBar.foreground": "#FFFFFF",            // active icon (e.g. Explorer)
+            "activityBar.foreground": "#7197e8", // active icon (e.g. Explorer)
+            "activityBar.inactiveForeground": "#677d9c", // inactive icons
+            // "activityBar.background": "#011627",            // optional: slightly brighten the bar background
+            "activityBarBadge.background": "#263453", // badge highlight (e.g. for Git changes)
+            "activityBarBadge.foreground": "#ffffff",
+            // "statusBar.background": "#011627",
+            "statusBar.foreground": "#708cb3",
+            // "statusBar.debuggingBackground": "#FF5874",
+            // "statusBar.noFolderBackground": "#011627",
+            // "statusBarItem.remoteBackground": "#011627",
+            // "statusBarItem.remoteForeground": "#7FDBCA",
+            "sideBar.border": "#09253f",
+        },
+        "editorCursor.foreground": "#e7ed6c",
+        // "terminal.selectionForeground": "#EFF5DD", //05212E
+        // "terminal.selectionBackground": "#05212E", //EFF5DD
+        "terminal.inactiveSelectionBackground": "#D6E8EB",
+        // "terminalCommandDecoration.errorBackground": "#ff0000"
+        // "terminal.foreground": "#f8f8f2",
+        // "terminal.background": "#282a36"
+        // "terminalCommandDecoration.errorBackground": "#fa5050",
+    },
+    "remote.SSH.remotePlatform": {
+        "abdul_rh": "linux",
+        "rhel_dell": "linux"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment, punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#7f848e",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "yaml.schemas": {
+        "kubernetes": "*.yaml"
+    },
+    "terminal.integrated.inheritEnv": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.codeActionsOnSave": {},
+    "editor.linkedEditing": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[ansible]": {
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "comments": true,
+            "other": true,
+            "strings": true
+        },
+        "editor.autoIndent": "advanced"
+    },
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "C:\\Users\\abdul\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+        "C:\\Users\\abdul\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+    },
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Night Owl",
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C8E51366-3F61-4863-A593-B62A98AD38F8"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "authenticationType": "SqlLogin",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "profileName": "Gravity DB",
+            "groupId": "C8E51366-3F61-4863-A593-B62A98AD38F8",
+            "server": "gravityclt.database.windows.net",
+            "database": "cashflow",
+            "user": "admin_gvtyclt@gravityclt",
+            "password": "",
+            "savePassword": true,
+            "encrypt": "Mandatory",
+            "id": "B7F49D21-D882-487F-8039-6B3D77731401",
+            "commandTimeout": 30,
+            "profileSource": 0
+        }
+    ],
+}
